@@ -12,7 +12,7 @@ public class MySpreadsheetIntegration {
 		SpreadsheetService service = new SpreadsheetService("MySpreadsheetIntegration-v1");
 
 		// TODO: Authorize the service object for a specific user (see other sections)
-		service.setUserCredentials("google id", "password");
+		service.setUserCredentials("google id1", "password1");
 
 		// Define the URL to request. This should never change.
 		URL SPREADSHEET_FEED_URL = new URL("https://spreadsheets.google.com/feeds/spreadsheets/private/full");
